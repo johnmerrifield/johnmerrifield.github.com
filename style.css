@@ -1,0 +1,67 @@
+/*
+Syntax error: Invalid CSS after "...ddddddd	height:": expected pseudoclass or pseudoelement, was " 23px;"
+        on line 4 of style.scss
+
+1: /*style.scss*/
+2: #navbar {
+3: 	width: 80%;
+4: addddddddddddddddd	height: 23px;
+5: }
+
+Backtrace:
+style.scss:4
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:926:in `expected'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:872:in `expected'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:854:in `expr!'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:620:in `pseudo'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:506:in `simple_selector_sequence'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:488:in `_selector'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:461:in `selector'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:445:in `selector_sequence'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:370:in `ruleset'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:433:in `block in declaration_or_ruleset'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:910:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:910:in `rethrow'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:434:in `declaration_or_ruleset'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:396:in `block_child'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:388:in `block_contents'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:377:in `block'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:371:in `ruleset'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:395:in `block_child'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:385:in `block_contents'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:59:in `stylesheet'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/scss/parser.rb:28:in `parse'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/engine.rb:327:in `_to_tree'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/engine.rb:300:in `_render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/engine.rb:247:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:319:in `update_stylesheet'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:169:in `block in update_stylesheets'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:167:in `each'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:167:in `update_stylesheets'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:273:in `block (4 levels) in watch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/path.rb:73:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/path.rb:73:in `run_callback'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/path.rb:55:in `callback_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/path.rb:35:in `update'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/state/file.rb:19:in `refresh'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/backends/polling.rb:17:in `each'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/backends/polling.rb:17:in `block in run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/backends/polling.rb:15:in `loop'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/backends/polling.rb:15:in `run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm/monitor.rb:26:in `run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/vendor/fssm/lib/fssm.rb:20:in `monitor'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:245:in `watch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/plugin.rb:111:in `method_missing'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/exec.rb:421:in `watch_or_update'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/exec.rb:302:in `process_result'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/exec.rb:41:in `parse'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/exec.rb:21:in `parse!'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/bin/sass:8:in `<top (required)>'
+C:/Ruby192/bin/sass:19:in `load'
+C:/Ruby192/bin/sass:19:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...ddddddd	height:\": expected pseudoclass or pseudoelement, was \" 23px;\"\A         on line 4 of style.scss\A \A 1: /*style.scss*/\A 2: #navbar {\A 3: 	width: 80%;\A 4: addddddddddddddddd	height: 23px;\A 5: }"; }

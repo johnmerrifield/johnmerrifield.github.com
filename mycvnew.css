@@ -23,7 +23,7 @@ p {
 	margin:0 1em 1em;
 }
 div.content a:link {
-	color:#E0EAF1;-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);box-shadow:0 1px 2px rgba(0,0,0,.2);text-shadow:0 1px 1px rgba(0,0,0,.3)
+	color:#FFF;-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);box-shadow:0 1px 2px rgba(0,0,0,.2);text-shadow:0 1px 1px rgba(0,0,0,.3)
 }
 div.content a:visited {
 	color:#000;
@@ -45,6 +45,30 @@ div.links a {
 div.links a:hover {
 	color: #F93; border-color: #F93;
 }
+<!--div.content a:link {
+	color:#E0EAF1;-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);box-shadow:0 1px 2px rgba(0,0,0,.2);
+  text-shadow:0 1px 1px rgba(0,0,0,.3)
+}
+div.content a:visited {
+	color:#000;
+}
+div.content a:hover {
+	color:#FD8008;
+}
+div.links {
+	position: absolute; top:14px; left:-131px; width: 145px;
+}
+div.links a {
+	background:none;display: block; padding: 5px 10px; margin: 0 0 20px;
+	 border-width: 0;text-align: center; 
+	 font: 12px/12px sans-serif;text-decoration: none;border-bottom:1px solid #3e6d8e;border-right:1px solid #7f9fb6; color: #3E6DDE;
+}
+div.links a {
+	background: #E0EAF1 0 0 no-repeat fixed;
+}
+div.links a:hover {
+	color: #F93; border-color: #F93;
+} -->
 img#chalsm {
 	float:right;
 }

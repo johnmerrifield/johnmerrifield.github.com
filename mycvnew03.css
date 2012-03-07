@@ -1,0 +1,1727 @@
+.cv-inline
+{
+    font-size: 13px;
+    line-height: 1.4em;
+}
+
+.cv-inline h1, .cv-inline h2, .cv-inline h3 
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	margin:0 0 3px 0;
+	padding-bottom:3px;
+	color:#444;
+}
+
+.cv-inline h1, .cv-inline h2
+{
+    width:100%;
+}
+
+.cv-inline h2, .cv-inline h3 
+{
+    clear:left;
+}
+
+.cv-inline .hide
+{
+    display:none;
+}
+
+.cv-inline h1
+{
+	font-size:200%;
+}
+
+.cv-inline h2
+{
+	font-size:140%;
+    border-bottom:1px solid #ccc;
+    margin: 10px 0 5px 0;
+    padding: 5px 0 10px 0;
+    color:#fd8008;
+}
+
+.cv-inline h3
+{
+    font-family:Trebuchet MS, Trebuchet, Sans-Serif;
+	font-size:110%;
+}
+
+.cv-inline h3.subgroup
+{
+    margin:10px 0 0 0;
+    padding:5px 0 5px 13px;
+    border-bottom:1px dotted #ccc;
+	font-size:120%;
+}
+
+.cv-inline h3.subgroup.github
+{
+    padding-left:25px;
+    background: url(../Img/github-icon.png) 0 center no-repeat;
+}
+
+.cv-inline h3 > a
+{
+    color:#07c;
+}
+
+.cv-inline div.icon
+{
+    float:left;
+    width:28px;
+    height:32px;
+    background-position:left 2px;
+    background-repeat:no-repeat;
+}
+
+.cv-inline div.icon > img
+{
+    width:16px;
+    height:16px;
+}
+
+.cv-inline div.icon + div
+{
+    float:left;
+    max-width:540px;
+}
+
+.cv-inline div.compact div.icon
+{
+    width:16px;
+    height:16px;
+    display:inline-block;
+    margin:2px 9px 2px 0;
+    background-position:bottom left;
+}
+
+.cv-inline div.cv-display > div.icon.github
+{
+    background-image: url(../Img/github-icon.png);
+}
+
+.cv-inline div.cv-display > div.icon.google
+{
+    background-image: url(http://code.google.com/favicon.ico);
+}
+
+.cv-inline div.cv-display > div.icon.bitbucket
+{
+    background-image: url(../Img/bitbucket-icon.png);
+}
+
+.cv-inline div.cv-display > div.icon.sourceforge
+{
+    background-image: url(http://sourceforge.net/favicon.ico);
+}
+
+.cv-inline div.cv-display > div.icon.codeplex
+{
+    background-image: url(http://codeplex.com/favicon.ico);
+}
+
+.cv-inline div.cv-display > div.icon.launchpad
+{
+    background-image: url(https://launchpad.net/@@/launchpad.png);
+}
+
+.section .parse-error
+{
+    color: #FF0000;
+}
+
+.section img.parse-error
+{
+    vertical-align: top;
+}
+
+.section label img.parse-error
+{
+    float: right;
+}
+
+.cv-inline p
+{
+    clear:left;
+    margin:12px 0;
+}
+
+.cv-inline div > p:first-child
+{
+    margin-top:0;
+}
+
+.cv-inline div > p:last-child
+{
+    margin-bottom:0;
+}
+
+.cv-inline .field-help > p
+{
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.cv-inline .field-help > p:last-child
+{
+    margin-bottom: 0;
+}
+
+.cv-inline .cv-display
+{
+    padding:0 13px;
+    position:relative;
+}
+
+.editable.cv-inline .cv-display
+{
+    width:570px;
+}
+
+.cv-inline input.location
+{
+    padding:3px;
+    background:#fff;
+}
+
+.cv-inline #get-started
+{
+    width:320px;
+    text-align:center;
+    padding:8px;
+    margin:10px auto;
+    border: 1px dotted #999;
+}
+
+.cv-inline #modmessage
+{
+    width:380px;
+    text-align:center;
+    padding:8px;
+    margin: 10px auto;
+    border: 1px dotted #FD8008;
+}
+
+.cv-inline #get-started > p
+{
+    margin:0;
+}
+
+.cv-inline img.favicon
+{
+    display:inline-block;
+    margin-right:10px;
+    position:relative;
+    top:1px;
+    width:16px;
+    height:16px;
+}
+
+.cv-inline .tags-summary img.favicon
+{
+    margin:0 2px;
+}
+
+.cv-inline div.personal-block div.cv-display
+{
+    padding:0;
+}
+
+.cv-inline .section.currently-at
+{
+    margin:10px 0;
+}
+
+.cv-inline .section.percentiles.hide-percentiles .tags-summary, .cv-inline .section.percentiles .post-tag.hidden
+{
+    opacity:0.55;
+    filter:alpha(opacity=55)
+}
+
+.cv-inline form.percentiles div.select-tags > div
+{
+    display:inline-block;
+}
+
+.cv-inline form.percentiles div.select-tags > input[type=checkbox]
+{
+    display:inline-block;
+    float:none;
+    clear:none;
+}
+
+.cv-inline form.percentiles div.select-tags input + .post-tag
+{
+    position:relative;
+    top:-6px;
+    margin:2px 10px 2px 4px;
+}
+
+.cv-inline form.percentiles div.select-tags .dislike
+{
+    display:none;
+}
+
+.cv-inline .cv-personal p
+{
+    clear:none;
+}
+
+.cv-inline a.twitter
+{
+    padding-right:22px;
+    background:url(../Img/icon-twitter-light.png) no-repeat center right;
+}
+
+.cv-inline p.prompt
+{
+    font-style:italic;
+    margin:0 0 0 0;
+    max-width:530px;
+    clear:left;
+    color:#999;
+}
+
+.cv-inline h2 + p.prompt
+{
+    padding:5px 13px;
+}
+
+.cv-inline .section.cv-personal
+{
+    padding:0;
+    margin:0;
+}
+
+.selected-result .cv-inline
+{
+    padding-top:15px;
+}
+
+.cv-inline #cv-technologies
+{
+    padding-bottom:2px;
+}
+
+.cv-inline .cv-personal h1
+{
+	color:#fd8008;
+	line-height:100%;
+	margin:0;
+	padding-bottom:2px;
+}
+
+.cv-inline .cv-personal > :first-child
+{
+    margin-top:0;
+    padding-top:0;
+}
+
+.cv-inline .cv-personal > :last-child
+{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.cv-inline .personal-block
+{
+    position:relative;
+    min-height:120px;
+}
+
+.cv-inline .personal-block .cv-display
+{
+    width:520px;
+}
+
+.cv-inline .personal-block form
+{
+    width:460px;
+}
+
+.cv-inline.editable .personal-block form label
+{
+    width:130px;
+}
+
+.cv-inline.editable .personal-block form .checkbox-list label
+{
+    width:275px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.cv-inline.editable .personal-block form input[type=text], .cv-inline.editable .personal-block form textarea
+{
+    width:310px;
+}
+
+.cv-inline div.sticky-note
+{
+    background-image:url(../Img/bg-stickynote.png);
+    background-position:left top;
+    background-repeat:no-repeat;
+    background-color:#fff;
+    float:right;
+    position:absolute;
+    width:117px;
+    height:118px;
+    margin-left:15px;
+    z-index:2;
+    right:0px;
+}
+
+.cv-inline.editable div.sticky-note
+{
+    right:45px;
+}
+
+.cv-inline img.gravatar
+{
+    display:inline-block;
+    position:relative;
+    top:2px;
+    left:6px;
+    width:108px;
+    height:108px;
+}
+
+.cv-inline.editable form img.gravatar
+{
+    display:inline-block;
+    border:1px solid #999;
+	width:24px;
+    height:24px;
+    position:relative;
+    top:6px;
+    margin:0 5px 0 0;
+}
+
+.cv-inline .cv-personal h1
+{
+    color:#fd8008;
+}
+
+.cv-inline .cv-personal p.location
+{
+    margin:0;
+    font-style:italic;
+}
+
+.cv-inline .cv-personal p#website
+{
+    margin:0;
+}
+
+.cv-inline .tags-summary, .cv-inline .tags-experience
+{
+    padding:10px;
+    background-color:#FFF6EE;
+    width:520px;
+}
+
+.cv-inline.editable .tags-summary
+{
+    width:480px;
+}
+
+.cv-inline div.quoted
+{
+    margin:0 0 0 0;
+    padding:1px 10px 1px 35px;
+    background:#F1F8FF url(../Img/quotes-small.png) no-repeat 10px 13px;
+    font-family:Georgia, Times New Roman, Serif;
+}
+
+.cv-inline div.quoted > *:first-child,
+.cv-inline div.quoted > *:last-child
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cv-inline p#objectives span
+{
+    font-weight:bold;
+}
+
+.cv-inline #cv-technologies label.tagtype
+{
+    display:inline-block;
+    width:75px;
+    float:left;
+    clear:left;
+    padding:3px 0 3px 0;
+}
+
+.cv-inline #cv-technologies span.none
+{
+    display:inline-block;
+    font-style:italic;
+    color:#888;
+    padding:3px 0 3px 0;
+}
+
+.cv-inline #cv-technologies .cv-display + a.edit
+{
+    clear:both;
+    float:none;
+    display:block;
+    margin:5px 15px;
+    width:100px;
+}
+
+.cv-inline #cv-technologies .cv-display p
+{
+    margin:0 0 5px;
+}
+
+.cv-inline #cv-sections div.section
+{
+    margin:0;
+}
+
+.cv-inline #cv-sections div.section > h3
+{
+    float:left;
+    clear:left;
+    width:300px;
+    margin-bottom:10px;
+}
+
+.cv-inline div.section
+{
+    padding:10px 0;
+    clear:both;
+    width:100%;
+}
+
+.cv-inline div.section.objectives, .cv-inline div.section.percentiles, .cv-passive div.section.objectives, .cv-passive div.section.percentiles
+{
+    clear:left;
+}
+
+.cv-inline div.repeater
+{
+    border-bottom:1px dotted #ccc;
+}
+
+.cv-inline div.repeater.last
+{
+    border-bottom:0;
+}
+
+.editable.cv-inline div.repeater.last
+{
+    border-bottom:1px dotted #ccc;
+}
+
+.cv-inline div.cv-section-type p.prompt
+{
+    display:none;
+}
+
+.cv-inline div.cv-section-type.none p.prompt
+{
+    display:block;
+}
+
+.cv-inline div.cv-section-type.none p.add
+{
+    display:none;
+}
+
+.cv-inline.editable form 
+{
+    margin:0;
+    padding:13px;
+    background-color: #f8f8f8;
+}
+
+.cv-inline .section form 
+{
+    display:none;
+}
+
+.cv-inline.editable form.focus, .cv-inline.editable form:focus
+{
+    background-color: #fff6ee;
+}
+
+.cv-inline form.student, .cv-inline span.student
+{
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-bottom: -30px;
+    padding: 0;
+    top: 10px;
+    font-family:Tahoma, Arial, Sans-Serif;
+    font-size:11px;
+    background-color:#fff;
+}
+
+.cv-inline form.student span
+{
+    float:left;
+    display:none;
+    padding:2px;
+    margin-right:5px;
+}
+
+.cv-inline span.student
+{
+    font-weight:bold;
+    top:14px;
+}
+
+.cv-inline form.student span.saved
+{
+    color:Green;
+}
+
+.cv-inline form.student span.saving
+{
+    color:#888;
+}
+
+.cv-inline form.student input[type=checkbox]
+{
+    clear:none;
+}
+
+.cv-inline .ui-dialog form 
+{
+    padding:0;
+}
+
+.cv-inline form label
+{
+    display:block;
+    width:145px;
+    font-weight:bold;
+    float:left;
+    clear:left;
+    padding:3px 10px 0 0;
+}
+
+.cv-inline form.github label
+{
+    display:block;
+    width:auto;
+    float:none;
+    clear:left;
+}
+
+.cv-inline.editable form input[type=text], .cv-inline.editable form textarea, .cv-inline.editable form .no-input
+{
+    display:block;
+    width:470px;
+    margin:0;
+    margin-bottom:20px;
+    float:left;
+}
+
+.cv-inline.editable form.repo input[type=text], .cv-inline.editable form.repo textarea, .cv-inline.editable form .no-input
+{
+    width:450px;
+}
+
+.cv-inline form div.checkbox-list
+{
+    display:block;
+    max-width:480px;
+    margin:0 0 20px 0;
+    float:left;
+}
+
+.cv-inline form div.options-list
+{
+    display:block;
+    max-width:480px;
+    margin:0 0 15px 0;
+    float:left;
+}
+
+.cv-inline .sidebar form input[type=text]
+{
+    width:150px;
+}
+
+.cv-inline form textarea
+{
+    height:180px;
+    resize:vertical;
+    padding:3px;
+}
+
+.cv-inline form textarea.brief
+{
+    height:64px;
+    resize:vertical;
+    padding:3px;
+}
+
+.cv-inline form input[type=submit]
+{
+    clear:left;
+    display:inline-block;
+}
+
+.cv-inline form input[type=checkbox], .cv-inline form input[type=radio]
+{
+    display:block;
+    float:left;
+    clear:left;
+}
+
+.cv-inline form input[type=checkbox] + label, .cv-inline form input[type=checkbox] + input[type=hidden] + label,
+.cv-inline form input[type=radio] + label
+{
+    display:block;
+    position:relative;
+    top:-3px;
+    float:left;
+    clear:none;
+    font-weight:normal;
+    width:auto;
+}
+
+.cv-inline form div.submit
+{
+    clear: both;
+}
+
+.cv-inline div.edit
+{
+    float:right;
+}
+
+.cv-inline a.edit, .cv-inline a.edit.add
+{
+    display:block;
+    clear:right;
+    float:right;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+.cv-inline a.edit.inline, .cv-inline a.add.inline
+{
+    display:inline;
+    clear:none;
+    float:none;
+    padding:0;
+    margin:0;
+    width:auto;
+    background-image:none;
+}
+
+.cv-inline div.edit a
+{
+    display:inline-block;
+    float:none;
+    padding:0;
+    margin:0 0 0 3px;
+}
+
+.cv-inline div.repeater h3
+{
+    display:inline-block;
+    margin:0 6px 0 0;
+    padding:0;
+}
+
+.cv-inline div.repeater.compact h3
+{
+    margin:2px 0;
+    max-width:500px;
+}
+
+.cv-inline div.repeater p.location
+{
+    margin:2px 0;
+    font-style:italic
+}
+
+.cv-inline div.repeater p.time-frame
+{
+    margin:2px 0;
+    font-size:12px;
+}
+
+.cv-inline div.repeater.compact
+{
+    padding:5px 0;
+}
+
+.cv-inline div.details
+{
+    width:100%;
+    clear:both;
+    display:none;
+}
+
+.cv-inline div.repeater.compact a.details
+{
+    float:right;
+    padding:0 0 0 20px;
+    margin:0;
+    width:50px;
+    height:18px;
+    white-space:nowrap;
+}
+
+.cv-inline div.repeater.compact .cv-display
+{
+    padding:0 10px;
+}
+
+.cv-inline div.repeater.compact p.time-frame
+{
+    float:right;
+    font-size:inherit;
+    margin:0;
+}
+
+.cv-inline div.repeater.compact p.position
+{
+    margin:2px 0;
+}
+
+.cv-inline div.repeater div.tags
+{
+    padding:2px 0;
+}
+
+.cv-inline a.edit.inline
+{
+    background-image:none;
+    font-style:normal;
+}
+
+.cv-inline a.move
+{
+    width:16px;
+    height:16px;
+    background-repeat:no-repeat;
+}
+
+.cv-inline a.move.up
+{
+    background-image:url(../Img/cv-up-flat.png);
+    background-position:1px 2px;
+}
+
+.cv-inline a.move.down
+{
+    background-image:url(../Img/cv-down-flat.png);
+    background-position:1px 3px;
+}
+
+.cv-inline a.move.progress
+{
+    opacity:.3;
+}
+
+.cv-inline div.section.progress
+{
+    opacity:.8;
+}
+
+.remove { color: red; }
+
+.cv-inline form a.remove
+{
+    float:right;
+    padding:8px 5px 0 0;    
+}
+
+.cv-inline div.section.first a.move.up, .cv-inline div.section.last a.move.down
+{
+    display:none;
+}
+
+.cv-inline a.add
+{
+    clear:left;
+    margin-bottom:9px;
+    width:auto;
+    padding:0 0 0 13px;
+}
+
+.cv-inline #other
+{
+    clear:both;
+}
+
+.cv-inline #cv-other label
+{
+    font-weight:bold;
+}
+
+.cv-inline #cv-locations .relocate-location
+{
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.cv-inline #cv-locations input[type=text]
+{
+    display:inline-block;
+    clear:both;
+    width:240px;
+    margin-bottom: 5px;
+}
+
+.cv-inline #cv-locations p#where
+{
+    margin:10px 0;
+    font-weight:bold;
+}
+
+.cv-inline #cv-locations a.remove
+{
+    display:inline-block;
+    float:left;
+    margin-left:10px;
+    margin-top:-5px;
+}
+
+.cv-inline .form-prototypes
+{
+    display:none;
+}
+
+.cv-inline a.add-location
+{
+    clear:both;
+    display:block;
+    width:100px;
+}
+
+.cv-inline p.geocode-error
+{
+    padding:0;
+    margin:0 0 0 150px;
+    position:relative;
+    top:-20px;
+    display:block;
+}
+
+.cv-inline p.geocode-error
+{
+    margin:0;
+}
+
+.cv-inline .field-validation-error
+{
+    font-size:inherit;
+    color:#fd8008;
+    clear:both;
+}
+
+.cv-inline form#personal .field-validation-error
+{
+    position:relative;
+    top:-18px;
+    margin-left:113px;
+    display:block;
+}
+
+.cv-inline form input[type=text].input-validation-error
+{
+    x-margin-bottom:40px;
+}
+
+.cv-inline .sidebar div#gravatar
+{
+    margin:5px 0;
+}
+
+.cv-inline form div.gravatar
+{
+    clear:both;
+    padding: 0 0 0 150px;
+    position: relative;
+    top: -20px;
+    font-family:Tahoma, Verdana, Arial, Sans-Serif;
+    font-size:11px;
+}
+
+.cv-inline form div.student-selector
+{
+    clear:both;
+    padding: 0 0 0 153px;
+    position: relative;
+    top: -20px;
+    font-family:Tahoma, Verdana, Arial, Sans-Serif;
+    font-size:11px;
+}
+
+
+.cv-inline form div.gravatar input[type=checkbox]
+{
+    display:inline-block;
+    clear:none;
+    float:none;
+}
+
+.cv-inline form div.gravatar input[type=checkbox] + label, .cv-inline form div.gravatar input[type=checkbox] + input[type=hidden] + label
+{
+    display:inline-block;
+    clear:none;
+    float:none;
+    color:inherit;
+    margin-left:3px;
+    top:-2px;
+}
+
+.cv-inline form div.gravatar a
+{
+    font-size:11px;
+    top:-2px;
+    position:relative;
+}
+
+.cv-inline img.flair
+{
+    display:block;
+    margin-bottom:15px;
+}
+
+.sidebar .stats
+{
+    font-size:16px;
+    color:#414141;
+    background-color:#F4F4F4;
+    margin: 5px 0;
+    height:55px;
+    width:100%;
+}
+
+.sidebar .stats > div
+{
+    display:inline-block;
+    width:30px;
+    margin:11px;
+}
+
+.sidebar .stats > div > p
+{
+    margin:3px 0 0 0;
+    padding:0;
+    font-size:12px;
+    color:#828282;
+    line-height:100%;
+}
+
+
+.sidebar .completed {
+    background-color: #EFFDDD;
+    border-bottom: 1px dotted #D3E5BD;
+    border-top: 1px dotted #D3E5BD;
+    clear: both;
+    padding: 10px;
+    margin:0 0 15px 0;
+}
+
+.sidebar .completed span.percent {
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    background-color: #BCE9B8;
+    color: #24651E;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 5px;
+
+}
+
+.cv-inline #cv-stackexchange-accounts p.site
+{
+    padding:0 0 6px 0;
+    margin:0;
+}
+
+.cv-inline #cv-stackexchange-accounts p a
+{
+    color:inherit;
+}
+
+.cv-inline #cv-stackexchange-accounts p:first-child
+{
+    padding-top:0;
+}
+
+.cv-inline #cv-stackexchange-accounts a:hover
+{
+    text-decoration:none;
+}
+
+.cv-inline #cv-stackexchange-accounts p span
+{
+    color:inherit;
+    display:inline-block;
+    width:200px;
+}
+
+.cv-inline #cv-stackexchange-accounts p span.rep
+{
+    width:auto;
+    margin-left:5px;
+    color:#999;
+}
+
+.cv-inline #cv-stackexchange-accounts input[type=checkbox]
+{
+    margin-left:5px;
+}
+
+.sidebar p.last-edit
+{
+    color:#888;
+    font-style:italic;
+    text-align:center;
+    padding-right:10px;
+}
+
+a.import, span.import, .sidebar .export a
+{
+    display:inline-block;
+    padding: 8px 5px 8px 35px;
+    margin:0;
+    background-repeat:no-repeat;
+    background-position:13px center;
+}
+
+div.gateway a.import
+{
+    padding-left:22px;
+    background-position:left center;
+    font-weight:bold;
+}
+
+a.import.other
+{
+    padding:2px;
+    margin-left:11px;
+}
+
+a.import.writing, a.import.project
+{
+    padding-left:13px;
+}
+
+span.import
+{
+    display:block;
+    background-position:0px center;
+    padding: 2px 0 2px 26px;
+}
+
+a.import.linkedin, span.import.linkedin
+{
+    background-image: url(http://www.linkedin.com/favicon.ico);
+}
+
+a.import.github, span.import.github
+{
+    background-image: url(../Img/github-icon.png);
+}
+
+a.import.bitbucket, span.import.bitbucket
+{
+    background-image: url(../Img/bitbucket-icon.png);
+}
+
+a.import.book, span.import.book
+{
+    background-image: url(../Img/amazon-icon.png);
+}
+
+a.import.article, span.import.article
+{
+    background-position: 14px center;
+    padding-left:39px;
+    background-image: url(../Img/document-globe.png);
+}
+
+a.import.google, span.import.google
+{
+    background-image: url(http://code.google.com/favicon.ico);
+}
+
+a.import.codeplex, span.import.codeplex
+{
+    background-image: url(http://www.codeplex.com/favicon.ico);
+}
+
+a.import.sourceforge, span.import.sourceforge
+{
+    background-image: url(http://sourceforge.net/favicon.ico);
+}
+
+a.import.stack, span.import.stack
+{
+    background-image: url(http://sstatic.net/stackoverflow/img/favicon.ico);
+}
+
+.pdf
+{
+    background-image: url(../img/icon-pdf.png);
+}
+
+span.open-source
+{
+    display:inline-block;
+    padding-left:13px;
+}
+
+a.import.open-source
+{
+    padding: 8px 0 8px 13px;
+    background:none;
+}
+
+.sidebar div.import, .sidebar .export
+{
+    border-top: 1px solid #E9E9E9;
+    margin:20px 0;
+}
+
+.sidebar a.import, .sidebar .export a
+{
+    display: block;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+div.import form[method=post]
+{
+    float:right;
+}
+
+div.import.other form[method=post]
+{
+    float:none;
+}
+
+div.import.book
+{
+    width:660px;
+}
+
+div.import input[type=text]
+{
+    width:220px;
+    display:inline-block;
+    margin-right:12px;
+}
+
+div.import.google input[type=text]
+{
+    width:400px;
+}
+
+div.import.other input[type=text], div.import.other textarea
+{
+    width:400px;
+    margin-bottom:12px;
+}
+
+div.import.other textarea
+{
+    height:80px;
+}
+
+div.import.other img.favicon
+{
+    width:16px;
+    height:16px;
+    position:relative;
+    top:2px;
+}
+
+div.import img.google-code, div.import img.sourceforge
+{
+    border:1px solid #ccc;
+    display:block;
+    margin-bottom:20px;
+}
+
+div.import label
+{
+    font-weight:bold;
+    display:block;
+}
+
+div.import div.overwrite
+{
+    margin-bottom:10px;
+}
+
+div.import div.overwrite label
+{
+    font-weight:normal;
+    display:inline-block;
+    font-style:italic;
+}
+
+div.import div.project p.description
+{
+    width:520px;
+}
+
+div.import div.overwrite + p.description
+{
+    color:#999;
+    width:500px;
+}
+
+div.import label > span
+{
+    font-weight:normal;
+}
+
+div.import div.project p, div.import div.project h3
+{
+    margin-bottom:2px;
+    clear:none;
+}
+
+div.import.book div.book
+{
+    clear:both;
+    width:100%;
+    border-bottom:1px dotted #ccc;
+    margin:10px 0;
+    width:640px;
+}
+
+div.import.book div.book > div
+{
+    float:left;
+    min-width:60px;
+    min-height:60px;
+    max-width:440px;
+    margin:0 10px 10px 0;
+}
+
+div.import div.section
+{
+    padding:10px 5px;
+    border-top:1px dotted #ccc;
+    width:620px;
+}
+
+div.import div.section:last-child
+{
+    border-bottom:1px dotted #ccc;
+}
+
+div.import div.section p.repo
+{
+    clear:none;
+    padding:0;
+    margin:0;
+}
+
+.cv-inline div#stackexchange-answers
+{
+    margin-left:10px;
+}
+
+.answer {
+    min-height: 50px;
+    width:100%;
+    clear: both;
+    float:left;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.answer .votes
+{
+    font-style:italic;
+    font-size:13px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:normal;
+    display:inline-block;
+    color:#888;
+}
+
+.answer-stats
+{
+    float:left;
+    margin-right:10px;
+    text-align:center;
+}
+
+.answer .score
+{
+    font-size: 18px;
+    padding:5px;
+    margin-bottom:6px;
+    text-align:center;
+    background-image: url(../Img/cvwidgets/bg-gradient.png);
+    border: 1px solid #2c2c2c;
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif;
+    width:32px;
+}
+
+.answer .score .votecount
+{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif;
+    font-weight: bold;
+}
+
+.answer-chooser
+{
+    background-color: #FFF6EE;
+    clear:both;
+    padding:10px;
+    display:none;
+}
+
+.spinner
+{
+    display: none;
+    margin-left:15px;
+}
+
+.remove-spinner
+{
+    visibility: hidden;
+    vertical-align: middle;
+}
+
+img.answer-logo
+{
+    width:16px;
+    height:16px;
+    top:1px;
+    position: relative;
+}
+
+.top-answer
+{
+    margin-bottom: 10px;
+}
+
+.top-answer-stats
+{
+    display: block;
+    float: left;
+    clear: both;
+    margin-right: 10px;
+    background-image: url("../Img/cvwidgets/bg-gradient.png");
+    background-repeat: repeat-x;
+    border: 1px solid #2c2c2c;
+    color: #FFF;
+    text-align:center;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif;
+    font-weight: 900;
+    padding:2px 3px 2px 3px;
+    width:21px;
+}
+
+.top-answer-title
+{
+    width: 550px;
+    display: block;
+    float: left;
+    padding: 2px 0;
+}
+
+.pasteALink
+{
+    width: 580px;
+    margin-bottom: 10px;
+}
+
+.add-answer
+{
+    float:right;
+    padding-top:4px;
+}
+
+.answers
+{
+    clear:both;
+    border-top:1px dotted #ccc;
+    padding:10px 0 0 0;
+}
+
+.answer-body {
+    overflow: hidden; 
+    max-height:200px;
+}
+
+.answer-body > :last-child
+{
+    margin-bottom:0;
+}
+
+.cv-inline .markdown h1,
+.cv-inline .markdown h2,
+.cv-inline .markdown h3
+{
+    color: inherit;
+    border: 0;
+    line-height: 120%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.cv-inline .markdown h1 { font-size: 160%; }
+.cv-inline .markdown h2 { font-size: 140%; }
+.cv-inline .markdown h3 { font-size: 120%; }
+
+.markdown.preview
+{
+    background-color:#fff;
+    padding:10px;
+    border:1px dotted #999;
+    clear:both;
+}
+
+.markdown.label
+{
+    font-size:11px;
+    font-family:Tahoma, Verdana, Sans-Serif;
+    font-weight:bold;
+    color:#666;
+    display:block;
+}
+
+.markdown.hint
+{
+    position:relative;
+    margin-left:155px;
+    top:-18px;
+    font-size:11px;
+    font-family:Tahoma, Verdana, Sans-Serif;
+    display:block;
+    clear:both;
+}
+
+#publish-options
+{
+    position:relative;
+    background-color:#fff;
+    padding:10px;
+    width:200px;
+    border:1px solid #999;
+    display:none;
+}
+
+#publish-options-toggle
+{
+    display:inline-block;
+    padding:10px 0;
+}
+
+#public-route-form span.message
+{
+    color:#999;
+    display:inline-block;
+}
+
+#public-route-form span.message.success
+{
+    color:Green;
+    background:url(../Img/check-green.png) no-repeat 1px 4px;
+	padding-left:20px;
+}
+
+#public-route-form span.message.failure
+{
+    font-weight:bold;
+    color:Red;
+}
+
+.cv-last-seen-date
+{
+    color:#888; 
+    font-size: 13px; 
+    float:right; 
+    font-weight:normal;
+    font-style: italic;
+}
+
+.cv-inline a.more
+{
+    display:inline-block;
+    padding:10px 0 0 13px;
+}
+
+.cv-inline .cv-section a.more
+{
+    padding-left:0;
+}
+
+.cv-inline div.percentiles a.more
+{
+    padding:3px;
+}
+
+.cv-inline div.more
+{
+    width:100%;
+    display:none;
+    clear:both;
+}
+
+.cv-inline div.no-input
+{
+    margin-bottom:7px;
+    padding-top:3px;
+}
+
+.toggler
+{
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-image:url(../Img/expand-plus.png);
+    padding-left:14px;
+    cursor:pointer;
+    color:inherit;
+    display:inline-block;
+    font-size:11px;
+    font-family:Tahoma, Arial, Sans-Serif;
+    margin:-20px 0 0 3px;
+}
+
+.toggler:hover
+{
+    text-decoration:none;
+}
+
+.toggler + div
+{
+    display:none;
+}
+
+.toggler.open
+{
+    background-image:url(../Img/expand-minus.png);
+}
+
+.toggler + div input[type=checkbox]
+{
+    margin-left:14px;
+}
+
+div.book div.image
+{
+    float:left;
+    margin-right:10px;
+    width:64px;
+    overflow:hidden;
+    min-height:60px;
+}
+
+div.book div.image img
+{
+    border:1px solid #ddd;
+}
+
+div.book.compact img.cover
+{
+    width:14px;
+    border:1px solid #ddd;
+}
+
+div.book div.cv-display div.book-content
+{
+    float:left;
+    width:490px;  
+}
+
+div.book div.cv-display div.book-content h3
+{
+    display:block;
+}
+
+div.book.repeater p.location, div.writing.repeater p.location
+{
+    margin:0;
+}
+
+div.book.repeater p.prompt
+{
+    margin:6px 0;
+}
+
+div.import h2 + p.hint
+{
+    margin-top:-14px;
+}
+
+div.import p.hint
+{
+    font-style:italic;
+    color:#888;
+}
+
+div.import p.existing
+{
+    font-style:italic;
+    color:#888;
+}
+
+ .remove-answer a.remove
+ {
+     background-image:url(../Img/cv-remove.png);
+     background-position:1px 1px;
+     width:16px;
+     height:16px;
+     background-repeat:no-repeat;
+ }
+ 
+ div.edit-controls a 
+ {
+    display:inline-block;
+    float:none;
+    padding:0;
+    margin:0 0 0 3px;    
+ }
+ 
+ div.mustache
+ {
+     display:none;
+ } 
+    
+form.request-invitation input[type=text], form.request-invitation textarea
+{
+    width:200px;
+    display:inline-block;
+    margin-bottom:10px;
+}
+    
+form.request-invitation textarea
+{
+    width:480px;
+    height:120px;
+} 
+    
+form.request-invitation label
+{
+    width:auto;
+    float:none;
+    clear:both;
+}
+
+div.gateway h2
+{
+    border:0;
+    padding:0;
+    margin:16px 0 12px 0;
+}
