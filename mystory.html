@@ -3,95 +3,172 @@
 <head>
 <style type="text/css">
 h1
-{
+  {
 	color:#fd8008;
 	font-family:Trebuchet MS,Helvetica,sans-serif;
 	line-height:100%;
 	margin:0;
 	padding-bottom:2px;
 	float: left;
-}
-h2{color: #FD8008; font-family:Trebuchet MS,Helvetica,sans-serif; ;font-size:140%;font-weight:bold;margin-bottom:1em;}
-h3{font-family:Trebuchet MS,Helvetica,sans-serif; color: #FD8008; font-size:110%;font-weight:bold;margin-bottom:1em;}
-h5{position: absolute; left: 35px; top: 45px; font-family: Verdana; color:black;font-size: 80%; font-style: italic;font-weight: normal; margin-bottom: 1em;}
-div#current {position:absolute;top: 110px;color: black; font-family: Georgia,Helvetica, sans-serif; font-size:110%;}
-div#links a span {display: none;} 
-
-div#links a {
-	background:#E0EAF1 0 0 no-repeat fixed; padding: 5px 10px; margin: 0 2px 20px;
-	 border-width:0;text-align: center; -webkit-box-shadow: 3px 2px 2px rgba(67, 109, 144, 0.85);
--moz-box-shadow:    3px 2px 2px rgba(67, 109, 144, 0.85);
-box-shadow:         3px 2px 2px rgba(67, 109, 144, 0.85);
-	 font: 12px/12px sans-serif;text-decoration: none;border-bottom:1px solid #3e6d8e;border-right:1px solid #7F9FB6; color: #3E6DDE;  
-}
-/*div#links a:hover span {display: block;
-   position: absolute; top:-70px; left: 300px; width: 200px;
-   padding: 5px; margin: 5px; z-index: 100;
-   color: #000; background: transparent; border:1px solid black;-webkit-box-shadow: 3px 2px 2px rgba(67, 109, 144, 0.85);
--moz-box-shadow:    3px 2px 2px rgba(67, 109, 144, 0.85);
-box-shadow:         3px 2px 2px rgba(67, 109, 144, 0.85);
-   font: 10px Verdana, sans-serif; text-align: center;}*/
-div#links a:hover span {display: block;
-   position: absolute; top:-5px; left: -160px; width: 100px;
-   padding: 5px; margin: 5px; z-index: 100;
-   color: #F93; background: #E0EAF1; border:0px solid black;-webkit-box-shadow: 3px 2px 2px rgba(67, 109, 144, 0.85);
--moz-box-shadow:    3px 2px 2px rgba(67, 109, 144, 0.85);
-box-shadow:         3px 2px 2px rgba(67, 109, 144, 0.85);
-   font: 10px Verdana, sans-serif; color:#3E6DDE; text-align: center;}
-div#links a:hover {
-	color: #F93; border-color: #F93; font-size:200%; font-weight: bold;
-}
-div.link a:visited {
-	color:black ;text-decoration:none;
-}
-
-div.content {
-background: #FFF 0 0 no-repeat fixed; border:solid 1px #DDD; */margin: auto;position:absolute;
-width: 70%; margin:auto;top:30px;right: 60px; left: 80px;padding: 30px;-webkit-box-shadow: 0px 1px 12px rgba (221, 221, 221, 1);
--moz-box-shadow:    0px 1px 12px rgba(221, 221, 221, 1); box-shadow: 0px 1px 12px rgba(221, 221, 221, 1);
-}   
-div.gravatar {height: 120px; background: #FFF;padding-top:30px;}       
-img.gravatar
-{
-    display:inline-block;
-    float: right;
-    top:2px;
-    left:6px;
-    width:108px;
-    height:108px;-webkit-box-shadow: 0px 1px 12px rgba (221, 221, 221, 1);
--moz-box-shadow:    0px 1px 12px rgba(221, 221, 221, 1); box-shadow: 0px 1px 12px rgba(221, 221, 221, 1);
-}
-img.apostrophe
-{float:left;margin-left: -50px;padding-top: 10px;
-}
-<!--div.gravatar {
-height: 120px; background: #FFF;}       
-img.gravatar
-{
-    display:inline-block;
-    float: right;
-    top:2px;
-    left:6px;
-    width:108px;
-    height:108px;
-}
-img.quotation_marks
-{float:left;
-}-->
-
-div.textcolor {
-	background: #F1F8FF 0 0 no-repeat fixed; position:relative;  
-	color: #444; font:0.6em Georgia, sans-serif; font-weight: normal; line-height: 1.7em; padding: 30px;}
-div.text  {
-  background: #F1F8FF 0 0 no-repeat fixed; position:float; padding: 5px 30px;  
-  color: #444; font:1.3em Georgia, sans-serif; font-weight: normal; line-height: 1.7em; margin-top: 30px;
   }
-
-  /*{<!--
-	background: #F1F8FF 0 0 no-repeat fixed; position:float; padding: 5px 0px;  
-	color: #444; font:1.3em Georgia, sans-serif; font-weight: normal; line-height: 1.7em; margin-top: 30px;
-  }-->*/
-                      
+h2
+  {
+  color: #FD8008; 
+  font-family:Trebuchet MS,Helvetica,sans-serif;
+  font-size:140%;
+  font-weight:bold;margin-bottom:1em;
+  }
+h3
+  {
+  font-family:Trebuchet MS,Helvetica,sans-serif; 
+  color: #FD8008; 
+  font-size:110%;
+  font-weight:bold;
+  margin-bottom:1em;
+  }
+h5
+  {
+  position: absolute; 
+  left: 35px; 
+  top: 45px; 
+  font-family: Verdana; 
+  color:black;font-size: 80%; 
+  font-style: italic;
+  font-weight:   normal; 
+  margin-bottom: 1em;
+  }
+div#current 
+  {
+  position:absolute;
+  top: 110px;
+  color: black; 
+  font-family: Georgia,Helvetica, sans-serif; font-size:110%;
+  }
+div#links a span 
+  {
+  display: none;
+  } 
+div#links a 
+  {
+  background:#E0EAF1 0 0 no-repeat fixed; 
+  padding: 5px 10px; margin: 0 2px 20px;
+	border-width:0;text-align: center; 
+  -webkit-box-shadow: 3px 2px 2px rgba(67, 109, 144, 0.85);
+  -moz-box-shadow:    3px 2px 2px rgba(67, 109, 144, 0.85);
+  box-shadow:         3px 2px 2px rgba(67, 109, 144, 0.85);
+	font: 12px/12px sans-serif;
+  text-decoration: none;
+  border-bottom:1px solid #3e6d8e;
+  border-right:1px solid #7F9FB6; 
+  color: #3E6DDE;  
+  }
+div#links a:hover span 
+  {
+  display: block;position: absolute; 
+  top:-5px; 
+  left: -160px; 
+  width: 100px; 
+  padding: 5px; 
+  margin: 5px;
+  z-index: 100;
+  color: #F93; 
+  background: #E0EAF1; 
+  border:0px solid black;
+  -webkit-box-shadow: 3px 2px 2px rgba(67, 109, 144, 0.85);
+  -moz-box-shadow:    3px 2px 2px rgba(67, 109, 144, 0.85);
+  box-shadow:         3px 2px 2px rgba(67, 109, 144, 0.85);
+  font: 10px Verdana, sans-serif; 
+  color:#3E6DDE;
+  text-align: center; 
+  }
+div#links a:hover 
+  {
+  color: #F93; 
+  border-color: #F93; 
+  font-size:200%; 
+  font-weight: bold;
+  }
+div.link a:visited 
+  {
+  color:black ;
+  text-decoration:none;
+  }
+div.content 
+  {background: #FFF 0 0 no-repeat fixed; 
+  border:solid 1px #DDD; 
+  margin: auto;
+  position:absolute;
+  width: 70%; 
+  margin:auto;
+  top:30px;
+  right: 60px; 
+  left: 80px;
+  padding: 30px;
+  -webkit-box-shadow: 0px 1px 12px rgba (221, 221, 221, 1);
+  -moz-box-shadow:    0px 1px 12px rgba(221, 221, 221, 1);
+  box-shadow: 0px 1px 12px rgba(221, 221, 221, 1);
+  }   
+div.gravatar 
+  {
+  height: 120px; 
+  background: #FFF;
+  padding-top:30px;
+  }       
+img.gravatar
+  {
+  display:inline-block;
+  float: right;
+  top:2px;
+  left:6px;
+  width:108px;
+  height:108px;
+  -webkit-box-shadow: 0px 1px 12px rgba (221, 221, 221, 1);
+  -moz-box-shadow:    0px 1px 12px rgba(221, 221, 221, 1); 
+  box-shadow: 0px 1px 12px rgba(221, 221, 221, 1);
+  }
+img.apostrophe
+  {
+  float:left;margin-left: -50px;padding-top: 10px;
+  }
+div.gravatar 
+  {
+  height: 120px; 
+  background: #FFF;
+  }       
+img.gravatar
+  {
+  display:inline-block;
+  float: right;
+  top:2px;
+  left:6px;
+  width:108px;
+  height:108px;
+  }
+img.quotation_marks
+  {
+  float:left;
+  }
+div.textcolor 
+  {
+	background: #F1F8FF 0 0 no-repeat fixed; 
+  position:relative;  
+	color: #444; 
+  font:0.6em Georgia, sans-serif; 
+  font-weight: normal; 
+  line-height: 1.7em; 
+  padding: 30px;
+  }
+div.text  
+  {
+  background: #F1F8FF 0 0 no-repeat fixed; 
+  position:float; 
+  padding: 5px 30px;  
+  color: #444; 
+  font:1.3em Georgia, sans-serif; 
+  font-weight: normal; 
+  line-height: 1.7em; 
+  margin-top: 30px;
+  }         
 </style>
 <script type="text/javascript">
 
@@ -104,7 +181,6 @@ div.text  {
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script></head>
 <body>
 <div class ="content">
@@ -113,46 +189,50 @@ div.text  {
 <h5>London, England</h5>
 <div class = "current">
 </div>
-
 <div class ="gravatar">
-
 <img alt="Gravatar" class="gravatar" height="108"
 src="http://www.gravatar.com/avatar/d34eea8ac778ff65d14c26ac9e7cb4f6?s=80&amp;r=PG&amp;d=identicon" width="108" /></div>
-
-
 <div class ="textcolor">
-
-
-<div id ="links" ><a href="index.html">Home<span>The starting point for the journey</span></a><!--<a href="mystory.html">Who is John Merrifield?<span>My Story</span>--></a><a href= "mycvnew3.html">My CV<span>You can read my CV on-line or download a pdf as well as my US degree documents</span></a>
+<div id ="links" ><a href="index.html">Home<span>The starting point for the journey</span></a>
+<!--<a href="mystory.html">Who is John Merrifield?<span>My Story</span>--></a>
+<a href= "mycvnew3.html">My CV<span>You can read my CV on-line or download a pdf as well as my US degree documents</span></a>
 <a href="worldofbmw.html">BMW Off-Road Course 2005<span> The full colour story of an off-road course that Paul and I took in deepest Wales...we still bear the scars;~)</span></a>
-   <a href = "colorado2006.html">Colorado 2006<span>All the dirt on our first Colorado snowboarding trip....awesome!!</span></a>   
+<a href = "colorado2006.html">Colorado 2006<span>All the dirt on our first Colorado snowboarding trip....awesome!!</span></a>   
 </div>
-
-
 <div class ="text">
- 
-
-
 <h2>Who is John Merrifield?</h2>
-
 <img class = "apostrophe" img src="apostrophe.png"alt= "pic apostrophe"/>
- <p>Widely experienced professional engineer, biker, snowboarder, gym rat and angler supported by an amazing family.</p>
- 
- <p>I have been on the mobile communications side of engineering since the early '80's via Fire Brigade PMR through UHF mobile
- data, PCN1800 and TETRA to present day LTE 3.5GHz. I have operated both as permanent key role player and freelancer of which I preferred the latter.  That said Perot Systems was the best company I ever worked for permanent or freelance.</p>
+<p>
+  Widely experienced professional engineer, biker, snowboarder, gym rat and angler supported by an amazing family.
+</p>
+<p>
+  I have been on the mobile communications side of engineering since the early '80's via Fire Brigade PMR through UHF mobile
+  data, PCN1800 and TETRA to present day LTE 3.5GHz. I have operated both as permanent key role player and freelancer of which I preferred the latter.  That said Perot Systems was the best company I ever worked for permanent or freelance.
+</p>
 <p>I have worked in most areas of mobile outfits including: Deployment, Operations Engineering, Sales and Marketing as well as 
-  completing tasks in project and product management. Whilst fulfilling these roles I have worked at Datatrak, Hutchison, Orange, Dolphin and now UK Broadband Ltd, a division of Hong Kong based PCCW.  I have also, whilst with Perot Systems, operated as a Management Consultant on a multi-million dollar business improvement project for Los Angeles Department of Water and Power. It was whilst on this project that I learned the issues faced by Utilities in their mobile communications deployments and as a result saved the Department $18Million of spend.</p>
-<p>My early mobile communications experience was gained at Dyfed Fire Brigade commissioning a previously installed
- brigade wide callout system utilising data carried over the Brigade PMR radio voice system.  During my tenure with 
-the Brigade I set up from scratch and managed the communications and maintenance facility.</p><p>  I spent over 10 years of my career as a passionate mobile data evangelist and only wish we were able to implement todays 
-mobile data technology back then.....all we had was the dream and a passionate desire to make it work!!!!!!! The pinnacle of that decade of devotion to mobile data was the 'Outstanding Contribution to TETRA Award 2001' for my work as chair of the TETRA Business Solutions Group.</p>
-<p>Fast forward to the present after passing through Real Time Passenger Information systems project management and into 2004 startup UK Broadband Ltd.  We built the first 3.5GHz IP Wireless network in Europe followed by WiMax deployments and WiFi on to the current flavour that is LTE and my involvment in ISO 18001, Health and Safety and Operations.</p>
-<p>On the personal front I rode my Kawasaki ZRX1200 through four winters and 100,000 miles. Since commencing snowboarding in 2000 I have managed nearly 200 days of riding and a lot of learning. I still hit the gym three times a week and am still hitting some serious poundages.  The fishing has fallen a bit by the wayside due to almost two years travelling but I have many double figure barbel to my credit to 11.5lb and pike to 22lb. </p> <p>One of these fine days I will write up some notes from the travelling my wife, Carol, and I were lucky enough to do in Australia, Vanuatu,Thailand, Cambodia and Nepal.</p>
-
-    </div>
-     </div>
-     </div>
-     </div>
-
+  completing tasks in project and product management. Whilst fulfilling these roles I have worked at Datatrak, Hutchison, Orange, Dolphin and now UK Broadband Ltd, a division of Hong Kong based PCCW.  I have also, whilst with Perot Systems, operated as a Management Consultant on a multi-million dollar business improvement project for Los Angeles Department of Water and Power. It was whilst on this project that I learned the issues faced by Utilities in their mobile communications deployments and as a result saved the Department $18Million of spend.
+</p>
+<p>
+  My early mobile communications experience was gained at Dyfed Fire Brigade commissioning a previously installed
+  brigade wide callout system utilising data carried over the Brigade PMR radio voice system.  During my tenure with 
+  the Brigade I set up from scratch and managed the communications and maintenance facility.
+</p>
+<p>  
+  I spent over 10 years of my career as a passionate mobile data evangelist and only wish we were able to implement todays 
+  mobile data technology back then.....all we had was the dream and a passionate desire to make it work!!!!!!! The pinnacle of that decade of devotion to mobile data was the 'Outstanding Contribution to TETRA Award 2001' for my work as chair of the TETRA Business Solutions Group.
+</p>
+<p>
+  Fast forward to the present after passing through Real Time Passenger Information systems project management and into 2004    startup UK Broadband Ltd.  We built the first 3.5GHz IP Wireless network in Europe followed by WiMax deployments and WiFi on to the current flavour that is LTE and my involvment in ISO 18001, Health and Safety and Operations.
+</p>
+<p>
+  On the personal front I rode my Kawasaki ZRX1200R through four winters and 100,000 mostly commuting to UKB. Since commencing snowboarding in 2000 I have managed nearly 200 days of riding and a lot of learning. I still hit the gym three times a week and am still hitting some serious poundages.  The fishing has fallen a bit by the wayside due to almost two years travelling but I have many double figure barbel to my credit to 11.5lb and pike to 22lb. 
+</p> 
+<p>
+  One of these fine days I will write up some notes from the travelling my wife, Carol, and I were lucky enough to do in Australia, Vanuatu,Thailand, Cambodia and Nepal.
+</p>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
