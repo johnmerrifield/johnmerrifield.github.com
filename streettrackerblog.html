@@ -1,0 +1,277 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style type="text/css">
+h1
+  {
+	color:#fd8008;
+	font-family:Trebuchet MS,Helvetica,sans-serif;
+	line-height:100%;
+	margin:0;
+	padding-bottom:2px;
+	float: left;
+  }
+h2
+  {
+  color: #FD8008; 
+  font-family:Trebuchet MS,Helvetica,sans-serif;
+  font-size:140%;
+  font-weight:bold;margin-bottom:1em;
+  }
+h3
+  {
+  font-family:Trebuchet MS,Helvetica,sans-serif; 
+  color: #FD8008; 
+  font-size:110%;
+  font-weight:bold;
+  margin-bottom:1em;
+  }
+h5
+  {
+  position: absolute; 
+  left: 35px; 
+  top: 45px; 
+  font-family: Verdana; 
+  color:black;font-size: 80%; 
+  font-style: italic;
+  font-weight:   normal; 
+  margin-bottom: 1em;
+  }
+div#current 
+  {
+  position:absolute;
+  top: 110px;
+  color: black; 
+  font-family: Georgia,Helvetica, sans-serif; font-size:110%;
+  }
+div#links a span 
+  {
+  display: none;
+  } 
+div#links a 
+  {
+  background:#E0EAF1 0 0 no-repeat fixed; 
+  padding: 5px 10px; margin: 0 2px 20px;
+	border-width:0;text-align: center; 
+  -webkit-box-shadow: 3px 2px 2px rgba(67, 109, 144, 0.85);
+  -moz-box-shadow:    3px 2px 2px rgba(67, 109, 144, 0.85);
+  box-shadow:         3px 2px 2px rgba(67, 109, 144, 0.85);
+	font: 12px/12px sans-serif;
+  text-decoration: none;
+  border-bottom:1px solid #3e6d8e;
+  border-right:1px solid #7F9FB6; 
+  color: #3E6DDE;  
+  }
+div#links a:hover span 
+  {
+  display: block;position: absolute; 
+  top:-5px; 
+  left: -160px; 
+  width: 100px; 
+  padding: 5px; 
+  margin: 5px;
+  z-index: 100;
+  color: #F93; 
+  background: #E0EAF1; 
+  border:0px solid black;
+  -webkit-box-shadow: 3px 2px 2px rgba(67, 109, 144, 0.85);
+  -moz-box-shadow:    3px 2px 2px rgba(67, 109, 144, 0.85);
+  box-shadow:         3px 2px 2px rgba(67, 109, 144, 0.85);
+  font: 10px Verdana, sans-serif; 
+  color:#3E6DDE;
+  text-align: center; 
+  }
+div#links a:hover 
+  {
+  color: #F93; 
+  border-color: #F93; 
+  font-size:200%; 
+  font-weight: bold;
+  }
+div.link a:visited 
+  {
+  color:black ;
+  text-decoration:none;
+  }
+div.content 
+  {background: #FFF 0 0 no-repeat fixed; 
+  border:solid 1px #DDD; 
+  margin: auto;
+  position:absolute;
+  width: 70%; 
+  margin:auto;
+  top:30px;
+  right: 60px; 
+  left: 80px;
+  padding: 30px;
+  -webkit-box-shadow: 0px 1px 12px rgba (221, 221, 221, 1);
+  -moz-box-shadow:    0px 1px 12px rgba(221, 221, 221, 1);
+  box-shadow: 0px 1px 12px rgba(221, 221, 221, 1);
+  }   
+div.gravatar 
+  {
+  height: 120px; 
+  background: #FFF;
+  padding-top:30px;
+  }       
+img.gravatar
+  {
+  display:inline-block;
+  float: right;
+  top:2px;
+  left:6px;
+  width:108px;
+  height:108px;
+  -webkit-box-shadow: 0px 1px 12px rgba (221, 221, 221, 1);
+  -moz-box-shadow:    0px 1px 12px rgba(221, 221, 221, 1); 
+  box-shadow: 0px 1px 12px rgba(221, 221, 221, 1);
+  }
+img.apostrophe
+  {
+  float:left;margin-left: -50px;padding-top: 10px;
+  }
+img.zaeta
+  {
+  float:left;margin-left: 0px;padding-top: 10px; padding-right: 10px; padding-bottom: 10px;
+  }
+img.woodmono
+  {
+  padding-top: 20px;
+  }
+div.gravatar 
+  {
+  height: 120px; 
+  background: #FFF;
+  }       
+img.gravatar
+  {
+  display:inline-block;
+  float: right;
+  top:2px;
+  left:6px;
+  width:108px;
+  height:108px;
+  }
+img.quotation_marks
+  {
+  float:left;
+  }
+div.textcolor 
+  {
+	background: #F1F8FF 0 0 no-repeat fixed; 
+  position:relative;  
+	color: #444; 
+  font:0.6em Georgia, sans-serif; 
+  font-weight: normal; 
+  line-height: 1.7em; 
+  padding: 30px;
+  }
+div.text  
+  {
+  background: #F1F8FF 0 0 no-repeat fixed; 
+  position:float; 
+  padding: 5px 30px;  
+  color: #444; 
+  font:1.3em Georgia, sans-serif; 
+  font-weight: normal; 
+  line-height: 1.7em; 
+  margin-top: 30px;
+  }  
+  span.post-tag
+  {
+  color:#3e6d8e;
+  background-color:#e0eaf1;
+  border-bottom:1px solid #3e6d8e;
+  border-right:1px solid #7f9fb6;
+  margin:2px 2px 2px 0;
+  padding:3px 4px;
+  text-decoration:none;
+  font-size:1em;
+  white-space:nowrap;
+  text-transform:lowercase;
+  display:inline-block;
+  }   
+  p#zaeta
+  {
+    clear: both;
+  }    
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25411065-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script></head>
+<body>
+<div class ="content">
+<h1>My Streettracker Project 2013</h1> 
+
+<h5>Lambourn, England</h5>
+<div class = "current">
+</div>
+<div class ="gravatar">
+<img alt="Gravatar" class="gravatar" height="108"
+src="http://www.gravatar.com/avatar/d34eea8ac778ff65d14c26ac9e7cb4f6?s=80&amp;r=PG&amp;d=identicon" width="108" /></div>
+<div class ="textcolor">
+<div id ="links" ><a href="index.html">Home<span>The starting point for the journey</span></a>
+<a href="mystory.html">Who is John Merrifield?<span>My Story</span></a>
+<a href= "mycv.html">My CV<span>You can read my CV on-line or download a pdf as well as my US degree documents</span></a>
+<a href="worldofbmw.html">BMW Off-Road Course 2005<span> The full colour story of an off-road course that Paul and I took in deepest Wales...we still bear the scars;~)</span></a>
+<a href = "colorado2006.html">Colorado 2006<span>All the dirt on our first Colorado snowboarding trip....awesome!!</span></a>   
+</div>
+<div class ="text">
+<h2>What's this all about?</h2>
+<img class = "apostrophe" img src="apostrophe.png"alt= "pic apostrophe"/>
+<p>
+  During the period whilst we were travelling and I was bikeless I started thinking about bikes and how, as a guy who cut his teeth on a Gold Star, bikes had become heavy, overgrown, unwieldy and all of that.  I started thinking of the minimal bike and trawled the web for ideas and in March 2011 stumbled upon <a href="sideburnmagazine.com">Sideburn magazine</a>.
+</p>
+<p>
+Sideburn is a magazine created by a group of enthusiasts of the flat track scene trying to create a presence for Dirt Track/Flat track in the UK.  The sort of bikes featured on the pages of Sideburn inspired me to consider building such a machine but I had no idea where to start or what the foundations would be.  However the desire had been created and now I had to find a way to fulfil it.
+</p>
+<P>
+<span class="post-tag">dateline September 2012</span></p>
+
+<img class = "zaeta" img src="zaeta.jpg" alt ="Pic of Zaeta"/>
+<p id ="zaeta">
+Issue 11 of Sideburn and suddenly I was in love........with the Zaeta........this was the sort of bike that I needed...grass roots, engine, chassis, wheels what else do you need?  The problem is we were in Thailand and I could not progress it further at that time.
+</p>
+<span class="post-tag">dateline June 2013</span>
+<p>
+Back in our own home again in West Berkshire I was still dithering about what bike to get, swinging from the Aprilia Tuono to Triumph Scrambler to KTM 690 or 390. Then we went off travelling again for six weeks, with summer approaching it was time to make a decision.  Suddenly the Zaeta popped up again on Facebook and I got in touch with Paolo Chiaia to see what was happening.  To cut a a long story short, having hardly got over the jet lag from San Francisco I was heading across country with my friend Paul to meet Paolo at DirtQuake 2.  I had this idea that maybe I could buy a Zaeta in component form and thus save some of the cost.  DirtQuake 2 was awesome and we saw so many amazing bikes and enthusiastic folks, sadly, due to a family engagement, we had to leave before the end but the hunger had returned for a streetable tracker. Sadly, as it emerged, it was not destined to be the Zaeta, I did not have the 10KEuro asking price or even half of it.
+</p>
+<p>  
+So back to the drawing board and a pivotal telephone call to Anthony Brown at Co-Built (one of the names I had seen at DirtQuake).  Much to my dismay Anthony explained that Co-Built were no longer in the chassis business but only complete bikes but suggested trying to find a Wood chassis from USA.  He suggested a couple of influential web sites such as <a href="vft.org">vft.org</a> and <a href="flattrack.com">flattrack.com</a> to commence my search.
+</p>
+<p>
+Although I did not know it at the time, this is a Wood Rotax (late with monoshock). Isn't it the most perfect thing you have ever seen? This pic was kindly provided by Elliott much later to try and help me identify a Wood Rotax when I saw one.
+<img class = "woodmono"  img src = "woodmono.png" alt = "Pic of Wood-Rotax"/> 
+</p>
+<p>
+Hardly had I commenced looking on the For Sale and Wanted of vft when this little beauty popped up in Wisconsin, bear in mind here that I knew absolutely nothing about the Wood Rotax, only that it looked the perfect bike for me.
+</p>
+<img class="joewood" img src = "joewood.png" alt = "pic of Wood-Rotax"/>
+<p> 
+Pretty soon I had contacted the owner and also the amazingly helpful 'Elliott' at <a href="rotax.net">Ron Wood Racing </a> in California who agreed to provide provenance for the bike if I needed to register it in the UK.  The days ticked by slowly while I waited for a number of shipping quotes to come in. Then huge disappointment as each one went well over $2000 and that was without the 26% import and VAT..almost doubling the cost of the bike, another budget buster!!
+</p>
+<span class="post-tag">dateline July 2013</span>
+<p>
+So how was I going to get this bike?  Then I had an idea, why not put in 'Wanted' ads in vft, flattrack and <a href="shorttrackuk.com">shorttrackuk.com</a> for a Wood Rotax chassis and see what response I got?  Well I did not have to wait long, over a couple of weeks I had a number of responses from complete bikes, chassis that definitely were not Wood (thanks again to Elliott for checking out the photos for me).  Probably the nicest one was this one from Germany.  Unfortunately the owner wants rather a lot of money which would stretch the budget to the limit.  We are stil trying to find a win win deal on this one.
+</p>
+<img class="walterwood" img src = "walterwood.png" alt = "pic of Wood-Rotax"/>
+<p>
+I also got a mail from an Australian who had seen one in Stroud.  So the next day I went off down the Rickman emporium and found this. Sadly, not a Wood but a Knight, lovely machine and brand new but not what I was looking for and too much money to boot!!
+</p>
+<img class "knight" img src="knight.jpg" alt = "pic of knight"/>
+<p>I have another story to tell which will round out the July dateline.  More of this later as I expect it to conclude this week.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
